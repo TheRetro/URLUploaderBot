@@ -5,9 +5,7 @@ This is a Telegram URL Upload Bot!
 <b>Please send me any direct download URL Link, i can upload to telegram as File/Video</b>
 
 /help for more details..
-
-Support Group : @InFoTelGroup
-© @SpEcHlDe , @TGBotsZ & @CWProjects"""
+"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "No Plans dear. Create your own URL Bot : 👉 <a href='https://github.com/TGExplore/TG-URL-Uploader'>Clone Code</a>."
@@ -19,8 +17,8 @@ URL | filename | username | password"""
     UPLOAD_START = "trying to upload"
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "Thanks . Join @TGBotsZ"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \nThanks . Join @TGBotsZ \nUploaded in {} seconds."
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "@daftarputar"
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Diunduh selama {} detik. \nDiunggah selama {} detik."
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/ThankTelegram'>@SpEcHlDe</a>"
     SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
@@ -35,10 +33,7 @@ URL | filename | username | password"""
 --------
 Telegram ID: <code>{}</code>
 Plan name : Free User
-Expires on : 31/12/2020
-
-Support Group : @InFoTelGroup
-© @TGBotsZ & @CWProjects"""
+Expires on : 31/12/2020"""
     HELP_USER = """There are multiple things I can do:
 1. Send url (Link|New Name with Extension).
 2. Send Custom Thumbnail (Optional).

@@ -1,39 +1,38 @@
 class Translation(object):
-    START_TEXT = """Hello,
-This is a Telegram URL Upload Bot!
+    START_TEXT = """Selamat datang di @UnggahBot / @UnduhURLBot
+	Kirim link direct, nanti bot bakal kirim filenya
+/help untuk info lebih lanjut...
 
-<b>Please send me any direct download URL Link, i can upload to telegram as File/Video</b>
-
-/help for more details..
-"""
-    RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
-    ABS_TEXT = " Please don't be selfish."
-    UPGRADE_TEXT = "No Plans dear. Create your own URL Bot : 👉 <a href='https://github.com/TGExplore/TG-URL-Uploader'>Clone Code</a>."
-    FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
-    SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
+bot oleh @fitriantof """
+    RENAME_403_ERR = "Maaf. Kamu tidak diizinkan untuk mengubah nama berkas ini."
+    ABS_TEXT = " Tolong! Jangan Egois.."
+    UPGRADE_TEXT = "Saat ini belum tersedia"
+    FORMAT_SELECTION = "Pilih format yang diiginkan: <a href='{}'>ukuran berkas akan mendekati</a> \nJika kamu ingin menyetel gambar pilihan, kirim terlebih dahulu atau setelah mengetuk sebuah tombol dengan cepat.\nKamu dapat menggunakan /deletethumbnail untuk menghapus gambar yang didapatkan secara otomatis.."
+    SET_CUSTOM_USERNAME_PASSWORD = """Jika kamu ingin mengunduh video berbayar (premium), silahkan ikuti format berikut ini:
 URL | filename | username | password"""
-    NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
-    DOWNLOAD_START = "trying to download"
-    UPLOAD_START = "trying to upload"
-    RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "@daftarputar"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Diunduh selama {} detik. \nDiunggah selama {} detik."
-    NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
-    NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/ThankTelegram'>@SpEcHlDe</a>"
+    NOYES_URL = "@robot URL terdeteksi. Harap gunakan transloader (@transloader) dan berikan link cepat (fastspeed) agar tidak membuat lambat pengguna lain."
+    DOWNLOAD_START = "mencoba untuk mengunduh..."
+    UPLOAD_START = "mencoba untuk mengunggah..."
+    RCHD_BOT_API_LIMIT = "Ukuran melebihi ukuran yang dijinkan (50MB). Abaikan, Mencoba untuk mengunggah."
+    RCHD_TG_API_LIMIT = "Diunduh selama {} detik.\nUkuran berkas terdeteksi: {}\nMaaf, tapi Bot tidak dapat mengunggah berkas dengan ukuran lebih dari 1.49GB karena adanya batasan API Telegram."
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "Gabung di @daftarputar"
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Diunduh selama {} detik. \nDiunggah selama  {} detik."
+    NOT_AUTH_USER_TEXT = "Harap /upgrade langgananmu."
+    NOT_AUTH_USER_TEXT_FILE_SIZE = "Ukuran berkas terdeteksi: {}. Pengguna gratis hanaya dapat mengunggah : {}\nHarap /upgrade langgananmu.\nJika kamu pikir ini adalah bug, harap hubungi admin <a href='https://t.me/fitriantof'>@FitriAntoF/a>"
     SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
-    DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
-    FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
-    SAVED_RECVD_DOC_FILE = "Document Downloaded Successfully."
+    DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Gambar pilihan berhasil dibersihkian."
+    FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media berhasil dibersihkan."
+    SAVED_RECVD_DOC_FILE = "Dokumen berhasil diunduh."
     CUSTOM_CAPTION_UL_FILE = " "
-    NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
-    NO_VOID_FORMAT_FOUND = "Something Error..\n<b>YouTubeDL</b> said: {}"
-    USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
+    NO_CUSTOM_THUMB_NAIL_FOUND = "Tidak ditemukan gambar pilihan"
+    NO_VOID_FORMAT_FOUND = "Ada yang salah..\n<b>YouTubeDL</b> menerangkan: {}"
+    USER_ADDED_TO_DB = "Pengguna <a href='tg://user?id={}'>{}</a> ditambahkan ke {} hingga {}."
     CURENT_PLAN_DETAILS = """Current plan details
 --------
 Telegram ID: <code>{}</code>
 Plan name : Free User
-Expires on : 31/12/2020"""
+Expires on : 31/12/2020
+"""
     HELP_USER = """There are multiple things I can do:
 1. Send url (Link|New Name with Extension).
 2. Send Custom Thumbnail (Optional).
@@ -43,18 +42,15 @@ Expires on : 31/12/2020"""
    Video  - Give File as video without Screenshots
    DFile  - Give File without Screenshots
    
-<b>👉 Create own Clone Bot : 👉</b> <a href='https://youtu.be/QkAkSLBgoYw'>Deploy</a>
 
 --------
 Send /me to know current plan details
-
-Support Group : @InFoTelGroup
-© @TGBotsZ & @CWProjects"""
+"""
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
     REPLY_TO_DOC_FOR_RENAME_FILE = "Reply to a Telegram media to /rename with custom thumbnail support"
-    AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Generated</a> valid for {} days.\n© @AnyDLBot"
+    AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Generated</a> valid for {} days.\n©"
     FF_MPEG_RO_BOT_RE_SURRECT_ED = """Syntax: /trim HH:MM:SS [HH:MM:SS]"""
     FF_MPEG_RO_BOT_STEP_TWO_TO_ONE = "First send /downloadmedia to any media so that it can be downloaded to my local. \nSend /storageinfo to know the media, that is currently downloaded."
     FF_MPEG_RO_BOT_STOR_AGE_INFO = "Video Duration: {}\nSend /clearffmpegmedia to delete this media, from my storage.\nSend /trim HH:MM:SS [HH:MM:SS] to cu[l]t a small photo / video, from the above media."

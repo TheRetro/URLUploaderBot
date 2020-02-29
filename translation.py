@@ -1,5 +1,5 @@
 class Translation(object):
-    START_TEXT = """Selamat datang di @UnggahBot / @UnduhURLBot
+    START_TEXT = """Selamat datang
 	Kirim link direct, nanti bot bakal kirim filenya
 /help untuk info lebih lanjut...
 

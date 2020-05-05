@@ -12,7 +12,7 @@ An Open Source ALL-In-One Telegram RoBot, that can do lot of things.
 ### Installation
 
 #### The Easiest Way
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fwww.youtube.com%2F&template=https%3A%2F%2Fgithub.com%2FTGExplore%2FTG-URL-Uploader)
 
 **👉 See our Video** - 👉 https://youtu.be/QkAkSLBgoYw
 
